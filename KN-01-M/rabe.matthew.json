@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "67c1bf22c4d136c1a0d9071e"
+  },
+  "name": "Max Mueller",
+  "birthday": {
+    "$date": "1996-10-02T22:00:00.000Z"
+  },
+  "address": "Irgendwostrasse 15",
+  "plz": 8001,
+  "city": "Zuerich"
+}]
