@@ -6,7 +6,7 @@
 
 ## Logisches Modell für MongoDB
 
-![datebase logical model](M165.drawio.svg)
+![datebase logical model](logical_schematic.drawio.svg)
 
 ## Anwendung des Schemas in MongoDB
 
@@ -14,8 +14,5 @@
 use <Datenbankname>;
 
 db.createCollection(Artist)
-db.createCollection(Album)
-db.createCollection(Song)
-db.createCollection(SongGenre)
 db.createCollection(Genre)
 ```
