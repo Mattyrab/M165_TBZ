@@ -129,7 +129,7 @@ printjson(db.genre.aggregate([ { $match: { description: "lorum ipsum action" } }
 
 printjson("-------1-------");
 
-
+printjson("lorum ipsum action");
 printjson(db.genre.aggregate([ { $match: { description: "lorum ipsum action" } }, { $group: { _id: null, count: { $sum: 1 } } } ]));
 
 printjson("-------2-------");
@@ -162,4 +162,4 @@ printjson(db.song.aggregate( [
    
 printjson("-------4-------");
 
-printjson(db.song.aggregate( [ { $unwind : "$genreID" } ] ));
+printjson(db.song.aggregate( [ { $unwind : "$genreId" } ] ));
