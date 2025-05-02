@@ -1,0 +1,32 @@
+{
+  "$jsonSchema": {
+    "title": "Song",
+    "type": "object",
+    "required": ["name", "releaseDate", "length", "genreId"],
+    "properties": {
+      "_id": {
+      "type": "objectId"
+      },
+      "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50
+      },
+      "length": {
+      "type": "int"
+      },
+      "releaseDate": {
+      "type": "date"
+      },
+      "genreId": {
+      "type": "objectId"
+      },
+      "artistId": {
+      "type": "objectId"
+      },
+      "albumId": {
+      "type": "objectId"
+      }
+    }
+  }
+}

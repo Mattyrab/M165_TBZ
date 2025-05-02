@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$id": "https://example.com/employee.schema.json",
+	"title": "Song",
+	"type": "object",
+	"properties": {
+		"_id": {
+		"bsonType": "objectId"
+		},
+		"name": {
+		"bsonType": "string",
+		"minLength": 2,
+		"maxLength": 50
+		},
+		"artistName": {
+		"bsonType": "string",
+		"minLength": 2,
+		"maxLength": 50
+		},
+		"age": {
+		"bsonType": "int"
+		}
+	}
+}

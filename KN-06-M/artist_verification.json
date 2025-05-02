@@ -1,0 +1,25 @@
+{
+  "$jsonSchema": {
+    "title": "Artist",
+    "type": "object",
+    "required": ["name", "artistName", "age"],
+    "properties": {
+      "_id": {
+      "type": "objectId"
+      },
+      "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50
+      },
+      "artistName": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50
+      },
+      "age": {
+      "type": "int"
+      }
+    }
+  }
+}

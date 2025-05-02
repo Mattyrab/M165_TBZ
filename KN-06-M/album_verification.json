@@ -1,0 +1,23 @@
+{
+  "$jsonSchema": {
+    "title": "Album",
+    "type": "object",
+    "required": ["name", "releaseDate"],
+    "properties": {
+      "_id": {
+      "type": "objectId"
+      },
+      "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50
+      },
+      "releaseDate": {
+      "type": "date"
+      },
+      "artistId": {
+      "type": "objectId"
+      }
+    }
+  }
+}
