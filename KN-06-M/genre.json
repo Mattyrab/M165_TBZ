@@ -15,6 +15,6 @@
 		"description": {
 		"bsonType": "string",
 		"maxLength": 200
-	}
+		}
 	}
 }

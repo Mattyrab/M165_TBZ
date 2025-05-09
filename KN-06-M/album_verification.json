@@ -1,22 +1,22 @@
 {
   "$jsonSchema": {
     "title": "Album",
-    "type": "object",
+    "bsonType": "object",
     "required": ["name", "releaseDate"],
     "properties": {
       "_id": {
-      "type": "objectId"
+      "bsonType": "objectId"
       },
       "name": {
-      "type": "string",
+      "bsonType": "string",
       "minLength": 2,
       "maxLength": 50
       },
       "releaseDate": {
-      "type": "date"
+      "bsonType": "date"
       },
       "artistId": {
-      "type": "objectId"
+      "bsonType": "objectId"
       }
     }
   }

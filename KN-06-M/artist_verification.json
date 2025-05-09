@@ -1,24 +1,24 @@
 {
   "$jsonSchema": {
     "title": "Artist",
-    "type": "object",
+    "bsonType": "object",
     "required": ["name", "artistName", "age"],
     "properties": {
       "_id": {
-      "type": "objectId"
+      "bsonType": "objectId"
       },
       "name": {
-      "type": "string",
+      "bsonType": "string",
       "minLength": 2,
       "maxLength": 50
       },
       "artistName": {
-      "type": "string",
+      "bsonType": "string",
       "minLength": 2,
       "maxLength": 50
       },
       "age": {
-      "type": "int"
+      "bsonType": "int"
       }
     }
   }

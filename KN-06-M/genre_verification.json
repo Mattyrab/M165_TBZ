@@ -5,15 +5,15 @@
     "required": ["name", "description"],
     "properties": {
       "_id": {
-      "type": "objectId"
+      "bsonType": "objectId"
       },
       "name": {
-      "type": "string",
+      "bsonType": "string",
       "minLength": 2,
       "maxLength": 50
       },
       "description": {
-      "type": "string",
+      "bsonType": "string",
       "maxLength": 200
       }
     }
